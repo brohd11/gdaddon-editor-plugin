@@ -34,15 +34,3 @@ exports:
     source: "res://addons/gdaddon"
     export_name: "gdaddon{{version=res://addons/gdaddon}}"
     export_folder: addons/gdaddon
-    exclude:
-      directories:
-        - "res://addons/gdaddon/export_ignore"
-      file_extensions: []
-      files: []
-    other_transfers: []
-    parser_overide_settings:
-      parse_cs: {}
-      parse_gd: {}
-      parse_tscn: {}
-      parse_tres: {}
-    remote_dir: "res://addons/gdaddon/src/remote"
